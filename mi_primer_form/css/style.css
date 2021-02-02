@@ -108,28 +108,19 @@
   margin: 5px;
 }
 
-.main-button_cancel {
+.main-button {
   text-decoration: none;
   background-color: blue;
   margin: 10px;
   padding: 13px;
   border-radius: 5%;
   color: white;
-}
-
-.main-button_enviar {
-  text-decoration: none;
-  background-color: blue;
-  padding: 13px;
-  margin: 10px;
-  border-radius: 4%;
-  color: white;
 
   transition-property: background-color, color, border-radius;
   transition-duration: 1s;
 }
 
-.main-button_enviar:hover {
+.main-button:hover {
   background-color: yellowgreen;
   border-radius: 20px;
   color: white;
