@@ -1,0 +1,94 @@
+/* global */
+* {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* header */
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+.header-logo {
+  width: 150px;
+  height: 60px;
+  margin: 5px;
+}
+
+.header-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.header-nav_menu li {
+  padding: 10px;
+}
+
+.header-nav_menu a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-nav_menu a:hover {
+  color: yellowgreen;
+}
+
+/* end header */
+
+/* content */
+
+.content {
+  border-radius: 3px;
+  display: flex;
+  margin: 10%;
+  -webkit-box-shadow: 10px 14px 24px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 14px 24px -7px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 14px 24px -7px rgba(0, 0, 0, 0.75);
+}
+.container {
+  width: 100%;
+}
+
+.titulo {
+  margin: 15px;
+}
+
+.field {
+  width: 50%;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.field label {
+  margin-bottom: 5px;
+}
+
+.name {
+  display: flex;
+}
+
+.contact {
+  display: flex;
+}
+
+.description {
+  display: flex;
+}
+
+.textarea {
+  width: 100%;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.textarea label {
+  margin-bottom: 5px;
+}
