@@ -70,6 +70,9 @@
   margin-bottom: 5px;
 }
 
+.field input {
+  border-radius: 4px;
+}
 .field input:hover {
   border: 2px solid blue;
 }
@@ -97,6 +100,9 @@
   margin-bottom: 5px;
 }
 
+.textarea textarea {
+  border-radius: 4px;
+}
 .textarea textarea:hover {
   border: 2px solid blue;
 }
