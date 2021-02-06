@@ -1,0 +1,68 @@
+/* General Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  margin: 5%;
+}
+
+.calculator-section {
+  width: 100%;
+  text-align: center;
+}
+
+/* Claculator Container*/
+
+.calculator-container {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Body calculator */
+
+.calculator-body {
+  background-color: #2f384f;
+  border-radius: 15px;
+  padding: 3%;
+}
+
+/* Screen */
+.screen {
+  background-color: #39d475;
+  padding: 5%;
+}
+
+/* Empty */
+.empty {
+  padding: 7%;
+}
+
+/* Buttons */
+.normal-button {
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+.clean-button {
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+  background-color: darkorange;
+}
+
+.clean-button:hover,
+.normal-button:hover {
+  background-color: darkslategray;
+  color: white;
+}
